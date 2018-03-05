@@ -1,6 +1,7 @@
 package com.ken.spring.boot.dao;
 
 import com.ken.spring.boot.dao.domain.City;
+
 import java.util.List;
 
 public interface CityDao {
