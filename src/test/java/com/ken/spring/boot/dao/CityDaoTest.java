@@ -18,6 +18,7 @@ public class CityDaoTest extends BaseTest {
 
     @Test
     public void testGetAll() throws Exception {
+
         List<City> cities = cityDao.selectSelective(null);
         System.out.println(cities);
     }
