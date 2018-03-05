@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1/spring-boot
+    username: s
+    password: s
+    driver-class-name: com.mysql.jdbc.Driver
+
+
+mybatis:
+  type-aliases-package: com.ken.spring.boot.dao.domain
+  mapper-locations: mapper/*
+
+
+logging:
+  level:
+   com.ken.spring.boot: DEBUG
+   org.springframework: DEBUG
