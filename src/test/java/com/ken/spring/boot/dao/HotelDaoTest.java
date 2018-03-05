@@ -18,7 +18,6 @@ public class HotelDaoTest extends BaseTest {
 
     @Test
     public void testSelect() throws Exception {
-
         List<Hotel> a = hotelDao.selectSelective(null);
         System.out.println(a);
     }
