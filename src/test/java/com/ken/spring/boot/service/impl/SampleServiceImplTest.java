@@ -22,6 +22,6 @@ public class SampleServiceImplTest extends BaseTest{
 
     @Test
     public void testGet() throws Exception {
-        sampleService.get();
+        sampleService.shouldGetSample();
     }
 }

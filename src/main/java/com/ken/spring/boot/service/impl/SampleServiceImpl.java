@@ -23,7 +23,7 @@ public class SampleServiceImpl implements SampleService {
 
 
     @Override
-    public String get() {
+    public String shouldGetSample() {
 
         City city = new City();
         city.setName("计算机世界上");

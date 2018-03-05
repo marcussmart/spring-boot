@@ -8,6 +8,6 @@ package com.ken.spring.boot.service;
 public interface SampleService {
 
 
-    String get();
+    String shouldGetSample();
 
 }

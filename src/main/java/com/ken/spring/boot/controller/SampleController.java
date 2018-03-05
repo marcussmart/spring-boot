@@ -21,7 +21,7 @@ public class SampleController {
 
     @RequestMapping(value = "", method = RequestMethod.GET)
     public String home() {
-        return sampleService.get();
+        return sampleService.shouldGetSample();
 //        return  "sample application!";
     }
 }
